@@ -66,6 +66,7 @@ a{
     border-bottom: 1px solid #e7e9fc;
     
     
+    
 }
 
 .header-container{
@@ -128,6 +129,15 @@ a{
     display: block
 }
 
+.active-menu-link::after{
+    content:'';
+    width: 100%;
+    display: block;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    
+}
 .header-menu-link:hover,
 .header-menu-link:focus{
     color: #404bbf;
@@ -155,6 +165,16 @@ a{
     padding-bottom: 188px;
     background-color:#2e2f42 ;
     text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),  
+    url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-main-title{
@@ -208,6 +228,20 @@ a{
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.oppotunities-icon-container{
+    max-width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    
+}
+/*                                                                   */
+.opportunities-icon{
+    
+    display: flex;
+    align-items: center;
+}
 
 .section-opportunities-name{  
     font-weight: 500;
