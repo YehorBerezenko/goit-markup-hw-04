@@ -190,7 +190,7 @@ button{
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),  
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,8 +225,8 @@ button{
     display: block;
     margin: 0 auto;
     transition-property: background-color;
-    transition-duration: 300ms;
-    /* transition-timing-function: ; */
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
