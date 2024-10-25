@@ -368,8 +368,8 @@ button{
     align-items: center;
     justify-content: center;
     transition-property: background-color;
-    transition-duration: 300ms;
-    /* transition-timing-function: ; */
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover,
@@ -380,7 +380,7 @@ background-color: #31d0aa;
 
 
 .team-icon{
-    fill: #fff;
+    fill: #f4f4fd;
 }
 
 /* ----------------------------FOURTH SECTION(PORTFOLIO)------------------------------ */
@@ -404,7 +404,8 @@ background-color: #31d0aa;
 
 .section-portfolio-item:hover{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-portfolio-item:hover .section-portfolio-cover-text{
@@ -429,8 +430,8 @@ width: 100%;
 height: 100%;
 padding: 40px 32px 40px 32px;
 transform: translateY(100%);
-transition-duration: 300ms;
-/* transition-timing-function: ; */
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -510,6 +511,7 @@ transition-duration: 300ms;
 
 .footer-container{
     display: flex;
+    align-items: baseline
         
 }
 
@@ -522,10 +524,13 @@ transition-duration: 300ms;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #fff;
-        padding-bottom: 16px;
+        margin-bottom: 16px;
+        font-weight: 500
 }
 
 .footer-soc-link-list{
     padding: 0 0;
+    display: flex;
+    gap: 16px;
 }
     
